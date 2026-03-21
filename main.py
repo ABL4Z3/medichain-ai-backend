@@ -10,7 +10,7 @@ load_dotenv()  # This loads the variables from .env into the system
 # Configure Gemini
 genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
 model = genai.GenerativeModel('gemini-2.5-flash')
-# demo
+# demo 2
 # Data structure matching your Firebase model
 class PatientData(BaseModel):
     name: str
